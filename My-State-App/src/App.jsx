@@ -24,6 +24,7 @@ function App() {
       fontFamily: "sans-serif"
     }}>
 
+
       {/* Glass Card */}
       <div style={{
         backdropFilter: "blur(10px)",
@@ -35,6 +36,8 @@ function App() {
         color: "#fff",
         width: "300px"
       }}>
+
+
 
         <h1 style={{ marginBottom: "20px" }}>
           State : {num}

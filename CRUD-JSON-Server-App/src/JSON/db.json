@@ -1,0 +1,17 @@
+{
+    "product" : [
+        {
+            "id" : 101,
+            "p_name" : "iphone17",
+            "p_price" : 12000,
+            "p_stoce" : 20,
+            "p_image" : "iphone.png",
+            "p_category" : "Electronic",
+            "p_description" : "hello phone hello phone"
+        }
+    ],
+
+    "cart" : []
+
+    
+}
