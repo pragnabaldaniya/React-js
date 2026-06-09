@@ -1,11 +1,16 @@
 import { useState } from "react";
 import type { productType } from "../utils/global";
+import { toast } from "react-toastify";
+import { useNavigate } from "react-router";
+import { addProduct } from "../Services/ProductService";
 
 
 export default function AddProductPage() {
 
+    const navigate = useNavigate();
+
     const [productData, setProductData] = useState<productType>({
-        id: Math.floor(Math.random() * 10000),
+
         p_name: "",
         p_price: 0,
         p_stock: 0,
@@ -29,18 +34,38 @@ export default function AddProductPage() {
     }
 
 
-    const onSubmit = (event: any) => {
+    const onHandleSubmit = async (event: any) => {
         event.preventDefault();  // page relode na ho is liye
 
         if (!validation()) {
+            toast.error("All filds are required...")
             return;
         };
 
+        toast.success("Product added successfully ✅");
+
         console.log("product Data : ", productData);
 
-        // add product logic
+        // add product logic json server
+        // const response = await fetch("http://localhost:8000/product", {
+        //     method: "POST",
+        //     body: JSON.stringify(productData)
+        // });
 
+        // navigate('/view-product')                   
+
+        // const data = await response.json();
+
+        // console.log("Rsponse : ", response);
+
+        const status = await addProduct(productData);
+
+        if (status) {
+            navigate('/view-product');
+        }
     }
+
+
 
     // form validation
     const validation = () => {
@@ -77,6 +102,8 @@ export default function AddProductPage() {
 
         seterrorForm(error);
 
+
+
         return Object.keys(error).length === 0; // true return karega so form submit
 
     }
@@ -94,7 +121,7 @@ export default function AddProductPage() {
             </div>
 
             {/* Form Container */}
-            <form onSubmit={onSubmit} className="grid grid-cols-1 gap-6 bg-white p-8 rounded-2xl border border-slate-200 shadow-xl shadow-slate-100">
+            <form onSubmit={onHandleSubmit} className="grid grid-cols-1 gap-6 bg-white p-8 rounded-2xl border border-slate-200 shadow-xl shadow-slate-100">
 
                 {/* Row 1: Product Name */}
                 <div className="flex flex-col gap-2">

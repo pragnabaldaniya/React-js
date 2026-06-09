@@ -1,17 +1,105 @@
 {
-    "product" : [
-        {
-            "id" : 101,
-            "p_name" : "iphone17",
-            "p_price" : 12000,
-            "p_stoce" : 20,
-            "p_image" : "iphone.png",
-            "p_category" : "Electronic",
-            "p_description" : "hello phone hello phone"
-        }
-    ],
-
-    "cart" : []
-
-    
+  "product": [
+    {
+      "p_name": "t-shirt",
+      "p_price": 300,
+      "p_stock": 12,
+      "p_image": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQQHenLSG9Sj07MgiCZImPLylY9o27PhO6sjk-NYpVGssl8TxL3rUO5TumREFipi2vVcr6wBfa1obg5wRqW8z6JPe_iKjVbscG52lCbfsbJIg8LAKTvCtJA",
+      "p_category": "Fashion",
+      "p_description": "sfsyjhkilasdzgfjyi vdrehk",
+      "id": "ik45Y8XLy-U"
+    },
+    {
+      "p_name": "home decor",
+      "p_price": 15300,
+      "p_stock": 20,
+      "p_image": "https://images-cdn.ubuy.co.in/65e2f287251270121858d86f-tritard-boho-velvet-pillow-covers-set-of.jpg",
+      "p_category": "Home & Living",
+      "p_description": "ywdiof braeyjd",
+      "id": "WT-gN2m4upM"
+    },
+    {
+      "p_name": "home decor",
+      "p_price": 2300,
+      "p_stock": 9,
+      "p_image": "https://assets.ajio.com/medias/sys_master/root/20250331/p8WM/67e9b2f77a6cd4182f9351d9/-473Wx593H-701391804-blue-MODEL.jpg",
+      "p_category": "Home & Living",
+      "p_description": "chuauadk jsdyajsk",
+      "id": "-g5IHWPqM2E"
+    },
+    {
+      "p_name": "Sports Equipments",
+      "p_price": 1000,
+      "p_stock": 10,
+      "p_image": "https://png.pngtree.com/png-clipart/20241110/original/pngtree-sports-equipments-solid-white-background-png-image_16890897.png",
+      "p_category": "Sport",
+      "p_description": "Download this sports equipments solid white background PNG image with transparent background which is free of cost.",
+      "id": "LTgkDGPCQnk"
+    },
+    {
+      "p_name": "iphone 16",
+      "p_price": 599,
+      "p_stock": 10,
+      "p_image": "https://images-cdn.ubuy.co.in/65e2f287251270121858d86f-tritard-boho-velvet-pillow-covers-set-of.jpg",
+      "p_category": "Electronic",
+      "p_description": "ok",
+      "id": "numqQWZZvaE"
+    },
+    {
+      "p_name": "home decor",
+      "p_price": 1000,
+      "p_stock": 10,
+      "p_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQeT_yBb8AHg97C7J-vOVxEMUyMbS-WyqjYyg&s",
+      "p_category": "Home & Living",
+      "p_description": "nice home decor",
+      "id": "gv_-v8wX9es"
+    },
+    {
+      "p_name": "Lord Krishna Hand Playing Murli",
+      "p_price": 999,
+      "p_stock": 20,
+      "p_image": "https://cdn.moolwan.com/4adeec30-c254-43b5-8a18-60e687a67e8e.webp",
+      "p_category": "Home & Living",
+      "p_description": "Hand of Lord Krishna's Statue looks very classy and his posture elegant",
+      "id": "FS9P_L7JXiY"
+    },
+    {
+      "p_name": "iphone 17",
+      "p_price": 12000,
+      "p_stock": 100,
+      "p_image": "https://assets.ajio.com/medias/sys_master/root/20250331/p8WM/67e9b2f77a6cd4182f9351d9/-473Wx593H-701391804-blue-MODEL.jpg",
+      "p_category": "Electronic",
+      "p_description": "csfhgmn,,dvdvf",
+      "id": "3KY-mMadt28"
+    },
+    {
+      "p_name": "REFULGIX 36 LED Pearl Bonsai Tree Lamp ",
+      "p_price": 1000,
+      "p_stock": 30,
+      "p_image": "https://m.media-amazon.com/images/I/71HHjFUPBYL._SX679_.jpg",
+      "p_category": "Home & Living",
+      "p_description": "📦 Package Contains – 1 x REFULGIX LED Bonsai Tree Lamp with 36 Pearl LEDs, 1 x USB Cable (Warm White, Pack of 1)",
+      "id": "MnD1g8feSp4"
+    },
+    {
+      "p_name": "home decor",
+      "p_price": 2000,
+      "p_stock": 10,
+      "p_image": "https://png.pngtree.com/png-clipart/20241110/original/pngtree-sports-equipments-solid-white-background-png-image_16890897.png",
+      "p_category": "Home & Living",
+      "p_description": "asgarsay sjatsra6dtuai hstaesyaija",
+      "id": "qKt89BmCzMA"
+    },
+    {
+      "p_name": "home decor",
+      "p_price": 1900,
+      "p_stock": 10,
+      "p_image": "https://assets.ajio.com/medias/sys_master/root/20250331/p8WM/67e9b2f77a6cd4182f9351d9/-473Wx593H-701391804-blue-MODEL.jpg",
+      "p_category": "Home & Living",
+      "p_description": "adsufidugd wjdjsouewyds kegoeufjsc gkousjsvb",
+      "id": "yFf6K4k51cY"
+    }
+  ],
+  "cart": [],
+  "$schema": "./node_modules/json-server/schema.json"
 }

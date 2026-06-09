@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import TableView from "./TableView";
 
 export default function App() {
 
@@ -32,28 +33,25 @@ export default function App() {
   }, [counter]);
 
 
-
-
-
-
-
-
-
-
   return <>
 
-      <h1>Hello TypeScript</h1>
+    <div className="container">
+      <div>
+        <h1>Hello TypeScript + Bootstrap</h1>
 
-      <h2>Counter : {counter}</h2>
-      <button onClick={() => { setCounter(counter + 1) }}>Increment (+)</button>
+        <h2>Counter : {counter}</h2>
+        <button onClick={() => { setCounter(counter + 1) }}>Increment (+)</button>
 
-      <h4>Name : {name}</h4>
-      <h4>Age : {age}</h4>
-      <h4>Phone : {phone}</h4>
-      <h4>Theme : {isTheme ? "Light" : "Dark"}</h4>
+        <h5>Name : {name}</h5>
+        <h5>Age : {age}</h5>
+        <h5>Phone : {phone}</h5>
+        <h5>Theme : {isTheme ? "Light" : "Dark"}</h5>
 
-      <h5>Array : {array}</h5>
-  
+        <h5>Array : {array}</h5>
+      </div>
+
+      <TableView />
+    </div>
 
   </>
 

@@ -1,5 +1,6 @@
 import { Outlet } from "react-router";
 import Header from "./Components/Header";
+import { ToastContainer } from "react-toastify";
 
 
 
@@ -16,6 +17,7 @@ export default function App() {
         <div className="min-h-500px rounded-3xl border border-slate-200 bg-white p-8 shadow-xl shadow-slate-200/50">
           <Outlet />
         </div>
+        <ToastContainer/>
 
       </main>
     </div>
